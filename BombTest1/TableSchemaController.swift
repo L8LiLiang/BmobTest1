@@ -100,5 +100,15 @@ class TableSchemaController: UITableViewController {
         return cell
     }
 
+    
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        tableView.deselectRowAtIndexPath(indexPath, animated: true)
+        
+        let schema = self.tablesSchemaArray[indexPath.section]
+        
+        let tableDataController = TableDataController(bmobSchema: schema)
+        
+        self.navigationController?.pushViewController(tableDataController, animated: true)
+    }
 }
 

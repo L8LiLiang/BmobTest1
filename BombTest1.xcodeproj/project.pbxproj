@@ -8,12 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		2148A6341CA22C310054D40E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148A6331CA22C310054D40E /* AppDelegate.swift */; };
-		2148A6361CA22C310054D40E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148A6351CA22C310054D40E /* ViewController.swift */; };
+		2148A6361CA22C310054D40E /* TableSchemaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148A6351CA22C310054D40E /* TableSchemaController.swift */; };
 		2148A6391CA22C310054D40E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2148A6371CA22C310054D40E /* Main.storyboard */; };
 		2148A63B1CA22C310054D40E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2148A63A1CA22C310054D40E /* Assets.xcassets */; };
 		2148A63E1CA22C310054D40E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2148A63C1CA22C310054D40E /* LaunchScreen.storyboard */; };
 		2148A6491CA22C310054D40E /* BombTest1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148A6481CA22C310054D40E /* BombTest1Tests.swift */; };
 		2148A6541CA22C310054D40E /* BombTest1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148A6531CA22C310054D40E /* BombTest1UITests.swift */; };
+		2148A6621CA22C4F0054D40E /* BmobSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2148A6611CA22C4F0054D40E /* BmobSDK.framework */; };
+		2148A6641CA22CC40054D40E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2148A6631CA22CC40054D40E /* CoreLocation.framework */; };
+		2148A6661CA22CCA0054D40E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2148A6651CA22CCA0054D40E /* Security.framework */; };
+		2148A6681CA22CD50054D40E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2148A6671CA22CD50054D40E /* CoreGraphics.framework */; };
+		2148A66A1CA22CDB0054D40E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2148A6691CA22CDB0054D40E /* MobileCoreServices.framework */; };
+		2148A66C1CA22CE60054D40E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2148A66B1CA22CE60054D40E /* CFNetwork.framework */; };
+		2148A66E1CA22CEB0054D40E /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2148A66D1CA22CEB0054D40E /* CoreTelephony.framework */; };
+		2148A6701CA22CF50054D40E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2148A66F1CA22CF50054D40E /* SystemConfiguration.framework */; };
+		2148A6721CA22D000054D40E /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2148A6711CA22D000054D40E /* libz.1.2.5.tbd */; };
+		2148A6741CA22D110054D40E /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2148A6731CA22D110054D40E /* libicucore.tbd */; };
+		2148A6761CA22D1D0054D40E /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2148A6751CA22D1D0054D40E /* libsqlite3.tbd */; };
+		2148A6781CA22D260054D40E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2148A6771CA22D260054D40E /* AVFoundation.framework */; };
+		2148A67A1CA22D2C0054D40E /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2148A6791CA22D2C0054D40E /* MediaPlayer.framework */; };
+		2148A67D1CA22D560054D40E /* te.m in Sources */ = {isa = PBXBuildFile; fileRef = 2148A67C1CA22D560054D40E /* te.m */; };
+		2148A67F1CA243B60054D40E /* TableDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148A67E1CA243B60054D40E /* TableDataController.swift */; };
+		2148A6811CA248EB0054D40E /* TableDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148A6801CA248EB0054D40E /* TableDataCell.swift */; };
+		2148A6831CA28F660054D40E /* AddAndEditDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148A6821CA28F660054D40E /* AddAndEditDataController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +53,7 @@
 /* Begin PBXFileReference section */
 		2148A6301CA22C310054D40E /* BombTest1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BombTest1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2148A6331CA22C310054D40E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2148A6351CA22C310054D40E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2148A6351CA22C310054D40E /* TableSchemaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableSchemaController.swift; sourceTree = "<group>"; };
 		2148A6381CA22C310054D40E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2148A63A1CA22C310054D40E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2148A63D1CA22C310054D40E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +64,24 @@
 		2148A64F1CA22C310054D40E /* BombTest1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BombTest1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2148A6531CA22C310054D40E /* BombTest1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BombTest1UITests.swift; sourceTree = "<group>"; };
 		2148A6551CA22C310054D40E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2148A6611CA22C4F0054D40E /* BmobSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BmobSDK.framework; sourceTree = "<group>"; };
+		2148A6631CA22CC40054D40E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2148A6651CA22CCA0054D40E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		2148A6671CA22CD50054D40E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2148A6691CA22CDB0054D40E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		2148A66B1CA22CE60054D40E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		2148A66D1CA22CEB0054D40E /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		2148A66F1CA22CF50054D40E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2148A6711CA22D000054D40E /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		2148A6731CA22D110054D40E /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		2148A6751CA22D1D0054D40E /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		2148A6771CA22D260054D40E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2148A6791CA22D2C0054D40E /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		2148A67B1CA22D550054D40E /* BombTest1-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BombTest1-Bridging-Header.h"; sourceTree = "<group>"; };
+		2148A67C1CA22D560054D40E /* te.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = te.m; sourceTree = "<group>"; };
+		2148A67E1CA243B60054D40E /* TableDataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableDataController.swift; sourceTree = "<group>"; };
+		2148A6801CA248EB0054D40E /* TableDataCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableDataCell.swift; sourceTree = "<group>"; };
+		2148A6821CA28F660054D40E /* AddAndEditDataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAndEditDataController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +89,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2148A67A1CA22D2C0054D40E /* MediaPlayer.framework in Frameworks */,
+				2148A6781CA22D260054D40E /* AVFoundation.framework in Frameworks */,
+				2148A6761CA22D1D0054D40E /* libsqlite3.tbd in Frameworks */,
+				2148A6741CA22D110054D40E /* libicucore.tbd in Frameworks */,
+				2148A6721CA22D000054D40E /* libz.1.2.5.tbd in Frameworks */,
+				2148A6701CA22CF50054D40E /* SystemConfiguration.framework in Frameworks */,
+				2148A66E1CA22CEB0054D40E /* CoreTelephony.framework in Frameworks */,
+				2148A66C1CA22CE60054D40E /* CFNetwork.framework in Frameworks */,
+				2148A66A1CA22CDB0054D40E /* MobileCoreServices.framework in Frameworks */,
+				2148A6681CA22CD50054D40E /* CoreGraphics.framework in Frameworks */,
+				2148A6661CA22CCA0054D40E /* Security.framework in Frameworks */,
+				2148A6641CA22CC40054D40E /* CoreLocation.framework in Frameworks */,
+				2148A6621CA22C4F0054D40E /* BmobSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +125,19 @@
 		2148A6271CA22C310054D40E = {
 			isa = PBXGroup;
 			children = (
+				2148A6791CA22D2C0054D40E /* MediaPlayer.framework */,
+				2148A6771CA22D260054D40E /* AVFoundation.framework */,
+				2148A6751CA22D1D0054D40E /* libsqlite3.tbd */,
+				2148A6731CA22D110054D40E /* libicucore.tbd */,
+				2148A6711CA22D000054D40E /* libz.1.2.5.tbd */,
+				2148A66F1CA22CF50054D40E /* SystemConfiguration.framework */,
+				2148A66D1CA22CEB0054D40E /* CoreTelephony.framework */,
+				2148A66B1CA22CE60054D40E /* CFNetwork.framework */,
+				2148A6691CA22CDB0054D40E /* MobileCoreServices.framework */,
+				2148A6671CA22CD50054D40E /* CoreGraphics.framework */,
+				2148A6651CA22CCA0054D40E /* Security.framework */,
+				2148A6631CA22CC40054D40E /* CoreLocation.framework */,
+				2148A6611CA22C4F0054D40E /* BmobSDK.framework */,
 				2148A6321CA22C310054D40E /* BombTest1 */,
 				2148A6471CA22C310054D40E /* BombTest1Tests */,
 				2148A6521CA22C310054D40E /* BombTest1UITests */,
@@ -98,11 +159,16 @@
 			isa = PBXGroup;
 			children = (
 				2148A6331CA22C310054D40E /* AppDelegate.swift */,
-				2148A6351CA22C310054D40E /* ViewController.swift */,
+				2148A6351CA22C310054D40E /* TableSchemaController.swift */,
+				2148A67E1CA243B60054D40E /* TableDataController.swift */,
+				2148A6821CA28F660054D40E /* AddAndEditDataController.swift */,
+				2148A6801CA248EB0054D40E /* TableDataCell.swift */,
 				2148A6371CA22C310054D40E /* Main.storyboard */,
 				2148A63A1CA22C310054D40E /* Assets.xcassets */,
 				2148A63C1CA22C310054D40E /* LaunchScreen.storyboard */,
 				2148A63F1CA22C310054D40E /* Info.plist */,
+				2148A67C1CA22D560054D40E /* te.m */,
+				2148A67B1CA22D550054D40E /* BombTest1-Bridging-Header.h */,
 			);
 			path = BombTest1;
 			sourceTree = "<group>";
@@ -256,8 +322,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2148A6361CA22C310054D40E /* ViewController.swift in Sources */,
+				2148A67D1CA22D560054D40E /* te.m in Sources */,
+				2148A6831CA28F660054D40E /* AddAndEditDataController.swift in Sources */,
+				2148A6361CA22C310054D40E /* TableSchemaController.swift in Sources */,
+				2148A67F1CA243B60054D40E /* TableDataController.swift in Sources */,
 				2148A6341CA22C310054D40E /* AppDelegate.swift in Sources */,
+				2148A6811CA248EB0054D40E /* TableDataCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,10 +469,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = BombTest1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Leon.BombTest1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BombTest1/BombTest1-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -410,10 +487,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = BombTest1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Leon.BombTest1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BombTest1/BombTest1-Bridging-Header.h";
 			};
 			name = Release;
 		};
