@@ -27,7 +27,7 @@ class TableDataCell: UITableViewCell {
         }
     }
     
-    static private var textFieldHeight:CGFloat = 20
+    static private var textFieldHeight:CGFloat = 30
     static private var leftEdge:CGFloat = 16
     static private var topEdge:CGFloat = 8
     
@@ -47,18 +47,23 @@ class TableDataCell: UITableViewCell {
                 continue
             }
             
+            let label = UILabel()
+            label.text = fieldName
+            label.frame = CGRect(x: TableDataCell.leftEdge, y: (i + 1)*TableDataCell.topEdge + i*TableDataCell.textFieldHeight, width: CGFloat(100), height: TableDataCell.textFieldHeight)
+            self.contentView.addSubview(label)
+            label.backgroundColor = UIColor.brownColor()
+            
             let textField = UITextField()
             textField.placeholder = fieldName
             self.textFieldsArray.append(textField)
-            
             self.contentView.addSubview(textField)
-            
-            textField.frame = CGRect(x: TableDataCell.leftEdge, y: (i + 1)*TableDataCell.topEdge + i*TableDataCell.textFieldHeight, width: CGFloat(200), height: TableDataCell.textFieldHeight)
+            textField.frame = CGRect(x: TableDataCell.leftEdge + 100, y: (i + 1)*TableDataCell.topEdge + i*TableDataCell.textFieldHeight, width: CGFloat(200), height: TableDataCell.textFieldHeight)
+            textField.borderStyle = .RoundedRect
             
             i++
         }
         
-        self.contentView.backgroundColor = UIColor(red: 200/255.0, green: 200/255.0, blue: 200/255.0, alpha: 1.0)
+        //self.contentView.backgroundColor = UIColor(red: 200/255.0, green: 200/255.0, blue: 200/255.0, alpha: 1.0)
     }
     
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
